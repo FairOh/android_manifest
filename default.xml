@@ -8,12 +8,12 @@
   <remote  name="github"
            fetch="git://github.com/" />
   
-  <default revision="refs/tags/android-4.3_r1.1"
+  <default revision="refs/tags/android-4.3_r2.2"
            remote="aosp"
            sync-j="4" />
 
 
-  <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="jb-4.3" >
+  <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="flo" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
