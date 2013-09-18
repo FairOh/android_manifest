@@ -1,4 +1,4 @@
-repo init -u https://github.com/PSX-PureSpeed/android_manifest.git -b flow
+repo init -u https://github.com/PSX-PureSpeed/android_manifest.git -b flo
 
 
 
